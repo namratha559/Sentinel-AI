@@ -259,4 +259,18 @@ Add screenshots here.
 - Historical weather analytics
 - Machine Learning based disaster prediction
 
+---
 
+# 👨‍💻 Author
+
+**Srinidhi T G**
+
+B.E. Computer Science & Engineering (AI & ML)
+
+Maharaja Institute of Technology Thandavapura
+
+---
+
+# ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!

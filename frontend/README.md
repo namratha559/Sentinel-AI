@@ -1,16 +1,92 @@
-# React + Vite
+# 🛰️ Sentinel AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sentinel AI is a disaster intelligence web application that helps users monitor weather conditions and identify possible disaster risks using AI. Users can search for a city or simply click anywhere on the interactive map to view live weather information and risk analysis.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🌍 Interactive world map
+- 📍 Click any location to view weather
+- 🌦️ Live weather details
+- 🌡️ Temperature, humidity and wind speed
+- 🤖 AI-based Flood, Fire and Heatwave risk analysis
+- 🌫️ Air Quality Index (AQI)
+- 📅 7-day weather forecast
+- 📊 Weather charts
+- 🌍 NASA disaster events
+- 🛰️ Street and Satellite map view
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js
+- Vite
+- React Leaflet
+- Chart.js
+- Axios
 
-## Expanding the Oxlint configuration
+### Backend
+- FastAPI
+- Python
+- SQLAlchemy
+- SQLite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## APIs Used
+
+- OpenWeather API
+- OpenWeather Air Pollution API
+- NASA EONET API
+- OpenStreetMap
+- Esri World Imagery
+
+## Project Structure
+
+```
+Sentinel-AI
+│
+├── backend
+├── frontend
+└── README.md
+```
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/Sentinel-AI.git
+```
+
+### Backend
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file inside the backend folder.
+
+```env
+OPENWEATHER_API_KEY=YOUR_API_KEY
+PLANET_API_KEY=YOUR_API_KEY
+```
+
+## Future Improvements
+
+- Live disaster alerts
+- PDF report generation
+- User authentication
+- Historical weather analysis
+- Machine learning based disaster prediction
