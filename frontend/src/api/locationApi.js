@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://sentinel-ai-backend-pcvu.onrender.com/";
+const API = "https://sentinel-ai-backend-pcvu.onrender.com";
 
 export const getWeatherByLocation = async (lat, lon) => {
 
