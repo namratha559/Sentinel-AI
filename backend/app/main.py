@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database.database import engine
-from app.database.models import Base
+from app.database.database import Base
+from app.models.weather_history import WeatherHistory
 from app.routers.weather import router as weather_router
 from app.routers.root import router as root_router
 from app.routers.health import router as health_router
