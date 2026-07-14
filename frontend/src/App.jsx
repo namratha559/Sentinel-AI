@@ -84,6 +84,7 @@ const [loading, setLoading] = useState(false);
           }}
         >
           Click anywhere on the map to get live weather,
+          
           AI risk analysis, AQI, forecast and NASA disaster data.
         </p>
 
